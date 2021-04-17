@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $? -eq 0 ]
+then
+echo "success"
+else
+echo "failed"
+fi
+
+f_name=Louis
+
+if [ ${f_name} = Louis ]
