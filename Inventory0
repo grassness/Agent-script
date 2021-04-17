@@ -1,0 +1,30 @@
+#!/bin/bash
+
+######Author: Louis
+###Description: Check few files
+
+if
+  [ -f /etc/group ]
+then
+echo "The file /etc/group exit   "
+else
+echo "The file /etc/group missing  "
+fi
+
+if
+   [ -f /etc/passwd ]
+then
+echo "The file /etc/passwd exit"
+else
+echo "The file /etc/passwd missing   "
+fi
+
+if
+      [ -f /etc/grub.conf ]
+then
+echo "The file /etc/grub.conf exit "
+else
+echo "The file /ect/grub.conf missing"
+fi
+~
+~
